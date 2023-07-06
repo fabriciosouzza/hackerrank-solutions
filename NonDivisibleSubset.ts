@@ -1,4 +1,4 @@
-main();
+// main();
 
 function nonDivisibleSubset(k: number, s: number[]): number {
   const arrOfRemainders: number[] = new Array(k).fill(0)
@@ -26,13 +26,13 @@ function nonDivisibleSubset(k: number, s: number[]): number {
 };
   
 
-function main() {
-    const k: number = 9;
-    const s: number[] = [422346306, 940894801, 696810740, 862741861, 85835055, 313720373];
+// function main() {
+//     const k: number = 9;
+//     const s: number[] = [422346306, 940894801, 696810740, 862741861, 85835055, 313720373];
   
-    const result: number = nonDivisibleSubset(k, s);
+//     const result: number = nonDivisibleSubset(k, s);
   
-    console.log("Output:\n\n", result);
+//     console.log("Output:\n\n", result);
   
-    console.log("\n- - -");
-  }
+//     console.log("\n- - -");
+//   }
